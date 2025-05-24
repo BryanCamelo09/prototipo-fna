@@ -1,0 +1,11 @@
+.vscode/
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Directorios de Node.js si hubieras usado npm install
+node_modules/
+# Archivos de configuración si usaras un servidor Node.js que no es para el frontend
+server.js
+package.json
+package-lock.json

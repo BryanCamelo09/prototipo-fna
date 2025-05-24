@@ -1,22 +1,22 @@
 /* Estilos personalizados para el prototipo del FNA */
 
-/* Fuente general (ajusta si tienes una fuente específica del FNA) */
 body {
     font-family: 'Montserrat', 'Arial', sans-serif; /* Puedes usar Google Fonts para Montserrat */
     background-color: #f0f2f5; /* Un tono gris claro muy suave */
     color: #333;
 }
 
-/* Colores del FNA (ejemplo, reemplaza con los exactos si los tienes) */
+/* Colores del FNA (ejemplo, reemplaza con los exactos si los tienes) [cite: 16, 24] */
 .text-fna-primary {
     color: #0056b3 !important; /* Un azul FNA fuerte */
 }
 
+/* Acentos en colores vibrantes para botones [cite: 17, 24] */
 .btn-fna-primary {
     background-color: #007bff; /* Azul primario de Bootstrap por defecto, ajusta si es diferente */
     border-color: #007bff;
     color: white;
-    transition: background-color 0.3s ease, border-color 0.3s ease;
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Transiciones sutiles [cite: 14] */
 }
 
 .btn-fna-primary:hover {
@@ -27,7 +27,7 @@ body {
 .btn-outline-fna-primary {
     color: #0056b3;
     border-color: #0056b3;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease; /* Feedback visual [cite: 4, 20, 25] */
 }
 
 .btn-outline-fna-primary:hover {
@@ -45,7 +45,7 @@ body {
     color: #0056b3 !important; /* Resalta el enlace al pasar el ratón */
 }
 
-/* Tarjetas de Servicio */
+/* Tarjetas de Servicio - bloques diferenciados [cite: 21, 22] */
 .card {
     border: none; /* Eliminar el borde de Bootstrap */
     border-radius: 10px; /* Bordes más suaves */
@@ -67,6 +67,7 @@ body {
 .jumbotron {
     border-radius: 15px !important; /* Bordes más redondeados para el banner */
     background: linear-gradient(135deg, #e0f2f7, #cbe0ef); /* Degradado suave para el banner */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.08) !important;
 }
 
 footer .nav-link {
@@ -76,4 +77,9 @@ footer .nav-link {
 
 footer .nav-link:hover {
     color: #333 !important;
+}
+
+/* Fuentes sans-serif modernas [cite: 15, 23, 35] */
+body, h1, h2, h3, h4, h5, h6, .btn, .nav-link {
+    font-family: 'Montserrat', sans-serif;
 }
