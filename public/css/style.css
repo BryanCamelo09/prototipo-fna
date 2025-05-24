@@ -1,0 +1,79 @@
+/* Estilos personalizados para el prototipo del FNA */
+
+/* Fuente general (ajusta si tienes una fuente específica del FNA) */
+body {
+    font-family: 'Montserrat', 'Arial', sans-serif; /* Puedes usar Google Fonts para Montserrat */
+    background-color: #f0f2f5; /* Un tono gris claro muy suave */
+    color: #333;
+}
+
+/* Colores del FNA (ejemplo, reemplaza con los exactos si los tienes) */
+.text-fna-primary {
+    color: #0056b3 !important; /* Un azul FNA fuerte */
+}
+
+.btn-fna-primary {
+    background-color: #007bff; /* Azul primario de Bootstrap por defecto, ajusta si es diferente */
+    border-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-fna-primary:hover {
+    background-color: #004085; /* Un azul más oscuro al pasar el ratón */
+    border-color: #00366a;
+}
+
+.btn-outline-fna-primary {
+    color: #0056b3;
+    border-color: #0056b3;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-fna-primary:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Navegación */
+.nav-link {
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #0056b3 !important; /* Resalta el enlace al pasar el ratón */
+}
+
+/* Tarjetas de Servicio */
+.card {
+    border: none; /* Eliminar el borde de Bootstrap */
+    border-radius: 10px; /* Bordes más suaves */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Sombra sutil */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efecto de "levantar" la tarjeta */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1); /* Sombra más pronunciada */
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Ajustes generales */
+.jumbotron {
+    border-radius: 15px !important; /* Bordes más redondeados para el banner */
+    background: linear-gradient(135deg, #e0f2f7, #cbe0ef); /* Degradado suave para el banner */
+}
+
+footer .nav-link {
+    font-size: 0.9rem;
+    color: #6c757d !important;
+}
+
+footer .nav-link:hover {
+    color: #333 !important;
+}
